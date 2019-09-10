@@ -20,11 +20,7 @@ dependency_overrides:
       url: https://github.com/felangel/flutter_architecture_samples
       path: todos_app_core
       ref: expose-repositories
-  todos_repository_simple:
-    git:
-      url: https://github.com/felangel/flutter_architecture_samples
-      path: todos_repository_simple
-      ref: expose-repositories
+
   rxdart: '0.21.0'
 
 dev_dependencies:

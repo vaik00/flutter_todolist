@@ -8,7 +8,7 @@ import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
 import 'package:flutter_app/blocs/todos/todos.dart';
 import 'package:flutter_app/models/models.dart';
-import 'package:todos_repository_simple/todos_repository_simple.dart';
+import 'package:flutter_app/repository_core/todos_repository_simple.dart';
 
 class TodosBloc extends Bloc<TodosEvent, TodosState> {
   final TodosRepositoryFlutter todosRepository;
