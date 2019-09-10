@@ -68,12 +68,12 @@ packages:
     source: sdk
     version: "0.0.0"
   intl:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: intl
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.15.8"
+    version: "0.16.0"
   matcher:
     dependency: transitive
     description:
@@ -96,12 +96,12 @@ packages:
     source: hosted
     version: "1.6.4"
   path_provider:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path_provider
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.1"
+    version: "1.3.0"
   pedantic:
     dependency: transitive
     description:
@@ -109,6 +109,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0+1"
+  platform:
+    dependency: transitive
+    description:
+      name: platform
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.2.1"
   provider:
     dependency: transitive
     description:
@@ -124,12 +131,12 @@ packages:
     source: hosted
     version: "2.0.5"
   rxdart:
-    dependency: "direct overridden"
+    dependency: "direct main"
     description:
       name: rxdart
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.21.0"
+    version: "0.22.2"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -177,15 +184,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.5"
-  todos_app_core:
-    dependency: "direct overridden"
-    description:
-      path: todos_app_core
-      ref: expose-repositories
-      resolved-ref: "08da0c362ff3b46bc5cdc26e43fcde4d3895e72a"
-      url: "https://github.com/felangel/flutter_architecture_samples"
-    source: git
-    version: "0.0.0"
   typed_data:
     dependency: transitive
     description:

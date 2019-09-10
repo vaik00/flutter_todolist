@@ -5,7 +5,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todos_app_core/todos_app_core.dart';
+import 'package:flutter_app/app_core/todos_app_core.dart';
 import 'package:flutter_app/blocs/todos/todos.dart';
 import 'package:flutter_app/screens/screens.dart';
 import 'package:flutter_app/bloc_library_keys.dart';
