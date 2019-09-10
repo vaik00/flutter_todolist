@@ -4,7 +4,7 @@
 
 import 'package:todos_app_core/todos_app_core.dart';
 import 'package:meta/meta.dart';
-import 'package:todos_repository_core/todos_repository_core.dart';
+import 'package:flutter_app/repository_core/repository.dart';
 
 @immutable
 class Todo {

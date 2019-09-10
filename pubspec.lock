@@ -186,24 +186,6 @@ packages:
       url: "https://github.com/felangel/flutter_architecture_samples"
     source: git
     version: "0.0.0"
-  todos_repository_core:
-    dependency: transitive
-    description:
-      path: todos_repository_core
-      ref: HEAD
-      resolved-ref: "987a28ec480b321deb058c205cda1551ddcf0e1d"
-      url: "https://github.com/felangel/flutter_architecture_samples"
-    source: git
-    version: "0.0.0"
-  todos_repository_simple:
-    dependency: "direct overridden"
-    description:
-      path: todos_repository_simple
-      ref: expose-repositories
-      resolved-ref: "08da0c362ff3b46bc5cdc26e43fcde4d3895e72a"
-      url: "https://github.com/felangel/flutter_architecture_samples"
-    source: git
-    version: "0.0.0"
   typed_data:
     dependency: transitive
     description:
