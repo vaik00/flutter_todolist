@@ -1,0 +1,36 @@
+name: flutter_app
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter_bloc: ^0.21.0
+  equatable: ^0.5.1
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dependency_overrides:
+  todos_app_core:
+    git:
+      url: https://github.com/felangel/flutter_architecture_samples
+      path: todos_app_core
+      ref: expose-repositories
+  todos_repository_simple:
+    git:
+      url: https://github.com/felangel/flutter_architecture_samples
+      path: todos_repository_simple
+      ref: expose-repositories
+  rxdart: '0.21.0'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
